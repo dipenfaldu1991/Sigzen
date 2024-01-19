@@ -1,0 +1,12 @@
+2024-01-17 11:30:48,386 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for mygym.com
+2024-01-17 11:30:48,584 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for mygym.com
+2024-01-17 11:30:48,643 INFO scheduler Scheduled Job Start: erpnext.utilities.doctype.video.video.update_youtube_data for mygym.com
+2024-01-17 11:30:48,843 INFO scheduler Scheduled Job Complete: erpnext.utilities.doctype.video.video.update_youtube_data for mygym.com
+2024-01-17 11:30:48,898 INFO scheduler Scheduled Job Start: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for mygym.com
+2024-01-17 11:30:49,053 INFO scheduler Scheduled Job Complete: erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs for mygym.com
+2024-01-17 11:30:49,107 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for mygym.com
+2024-01-17 11:30:49,281 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for mygym.com
+2024-01-17 11:30:49,335 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for mygym.com
+2024-01-17 11:30:49,531 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for mygym.com
+2024-01-17 11:30:49,588 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for mygym.com
+2024-01-17 11:30:49,763 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for mygym.com

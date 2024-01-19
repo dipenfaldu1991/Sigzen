@@ -1,0 +1,5 @@
+2024-01-17 18:56:02,804 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for mygym.com
+2024-01-17 18:56:02,860 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for mygym.com
+2024-01-17 18:56:03,002 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for mygym.com
+2024-01-17 18:56:06,997 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for mygym.com
+2024-01-17 18:56:07,094 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for mygym.com

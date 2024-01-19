@@ -1,0 +1,41 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "13.58.21"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "37e00a66da7f38107ee31141c43154a4615ff568",
+            "branch": "version-13"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "13.55.2"
+    },
+    "gym_app": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "014ddd759743fc7b0a0ce42dee5a84a301eba56c",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    },
+    "test": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "c485ef80a8d6a841f1cf81d32576a788ad2475ae",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "0.0.1"
+    }
+}

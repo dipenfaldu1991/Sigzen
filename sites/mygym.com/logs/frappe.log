@@ -1,0 +1,114 @@
+2024-01-13 18:17:46,696 ERROR frappe New Exception collected with id: 2024-01-13 18:17:46.618151-127.0.0.1-e3e
+Site: mygym.com
+Form Dict: {'doctype': 'Gym Member', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2024-01-13 19:42:52,184 ERROR frappe New Exception collected with id: 2024-01-13 19:42:52.136100-127.0.0.1-de9
+Site: mygym.com
+Form Dict: {'doctype': 'Gym Locker Booking', 'filters': '{"locker_number":5,"status":"Booked"}', 'cmd': 'gym_app.gym_app.doctype.gym_locker_booking.gym_locker_booking.validate_locker_booking'}
+2024-01-16 11:02:37,380 ERROR frappe New Exception collected with id: 2024-01-16 11:02:37.325247-127.0.0.1-a40
+Site: mygym.com
+Form Dict: {'doc': '{"name":"Gym Workout Plan Exercise","creation":"2024-01-16 10:57:04.071680","modified":"2024-01-16 10:57:17.456356","modified_by":"Administrator","owner":"Administrator","docstatus":0,"idx":0,"issingle":0,"is_tree":0,"istable":1,"editable_grid":1,"track_changes":0,"module":"Gym App","autoname":"format:{exercise_name}-{#####}","name_case":"","sort_field":"modified","sort_order":"DESC","read_only":0,"in_create":0,"allow_copy":0,"allow_rename":1,"allow_import":0,"hide_toolbar":0,"track_seen":0,"max_attachments":0,"document_type":"","engine":"InnoDB","is_submittable":0,"show_name_in_global_search":0,"custom":0,"beta":0,"has_web_view":0,"allow_guest_to_view":0,"email_append_to":0,"translated_doctype":0,"quick_entry":0,"track_views":0,"is_virtual":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"show_preview_popup":0,"index_web_pages_for_search":1,"doctype":"DocType","fields":[{"name":"7cd5bcd368","creation":"2024-01-16 10:57:04.071680","modified":"2024-01-16 10:57:17.456356","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Gym Workout Plan Exercise","parentfield":"fields","parenttype":"DocType","idx":1,"fieldname":"exercise_name","label":"Exercise Name","fieldtype":"Data","search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"doctype":"DocField"},{"name":"60d810b2fd","creation":"2024-01-16 10:57:04.071680","modified":"2024-01-16 10:57:17.456356","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Gym Workout Plan Exercise","parentfield":"fields","parenttype":"DocType","idx":2,"fieldname":"sets","label":"Sets","fieldtype":"Data","search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"doctype":"DocField"},{"name":"ba48ab91fa","creation":"2024-01-16 10:57:04.071680","modified":"2024-01-16 10:57:17.456356","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Gym Workout Plan Exercise","parentfield":"fields","parenttype":"DocType","idx":3,"fieldname":"repetitions","label":"Repetitions","fieldtype":"Int","search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"doctype":"DocField"},{"name":"22f8d1246f","creation":"2024-01-16 10:57:04.071680","modified":"2024-01-16 10:57:17.456356","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"Gym Workout Plan Exercise","parentfield":"fields","parenttype":"DocType","idx":4,"fieldname":"rest_time","label":"Rest Time","fieldtype":"Time","search_index":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"show_preview_popup":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"doctype":"DocField"}],"permissions":[],"actions":[],"links":[],"__last_sync_on":"2024-01-16T05:31:22.140Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-17 12:34:28,764 ERROR frappe New Exception collected with id: 2024-01-17 12:34:28.701535-127.0.0.1-2b4
+Site: mygym.com
+Form Dict: {'recipients': 'faldu.faldu1991@gmail.com', 'subject': 'Email Account: Dipen Faldu', 'content': '<div class="ql-editor read-mode"><p>asdsad</p></div>', 'doctype': 'Email Account', 'name': 'Dipen Faldu', 'send_email': '1', 'print_html': '', 'send_me_a_copy': '0', 'print_format': 'Standard', 'attachments': '[]', '_lang': 'en', 'read_receipt': '0', 'print_letterhead': '1', 'cmd': 'frappe.core.doctype.communication.email.make'}
+2024-01-17 12:35:27,653 ERROR frappe New Exception collected with id: 2024-01-17 12:35:27.649327-127.0.0.1-c5c
+Site: mygym.com
+Form Dict: {'recipients': 'dipenfaldu2015@gmail.com', 'subject': 'Email Account: Dipen Faldu', 'content': '<div class="ql-editor read-mode"><p>asdsadasddsf</p></div>', 'doctype': 'Email Account', 'name': 'Dipen Faldu', 'send_email': '1', 'print_html': '', 'send_me_a_copy': '0', 'print_format': 'Standard', 'attachments': '[]', '_lang': 'en', 'read_receipt': '0', 'print_letterhead': '1', 'cmd': 'frappe.core.doctype.communication.email.make'}
+2024-01-17 12:52:01,063 ERROR frappe New Exception collected with id: 2024-01-17 12:52:01.060547-127.0.0.1-47d
+Site: mygym.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Gym Class Booking","name":"new-gym-class-booking-1","__islocal":1,"__unsaved":1,"owner":"Administrator","class_type":"Boxing","member":"GM-Raj-Patel-00005","booking_date":"2024-01-31"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-17 12:52:54,005 ERROR frappe New Exception collected with id: 2024-01-17 12:52:53.954363-127.0.0.1-bdd
+Site: mygym.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Gym Class Booking","name":"new-gym-class-booking-1","__islocal":1,"__unsaved":1,"owner":"Administrator","class_type":"Yoga","member":"GM-jhb-sdkjvb-00014","booking_date":"2024-01-18"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-17 12:53:47,549 ERROR frappe New Exception collected with id: 2024-01-17 12:53:47.498576-127.0.0.1-94d
+Site: mygym.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Gym Class Booking","name":"new-gym-class-booking-1","__islocal":1,"__unsaved":1,"owner":"Administrator","class_type":"Dance Fitness","member":"GM-Raj-Patel-00005","booking_date":"2024-01-19"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-17 12:56:28,596 ERROR frappe New Exception collected with id: 2024-01-17 12:56:28.592760-127.0.0.1-155
+Site: mygym.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Gym Class Booking","name":"new-gym-class-booking-1","__islocal":1,"__unsaved":1,"owner":"Administrator","class_type":"Dance Fitness","member":"GM-Raj-Patel-00005","booking_date":"2024-01-19","attendance_status":"Present"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-17 12:56:43,260 ERROR frappe New Exception collected with id: 2024-01-17 12:56:43.203792-127.0.0.1-aa3
+Site: mygym.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Gym Class Booking","name":"new-gym-class-booking-1","__islocal":1,"__unsaved":1,"owner":"Administrator","class_type":"Dance Fitness","member":"GM-Raj-Patel-00007","booking_date":"2024-01-18","attendance_status":"Present"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-17 12:58:12,426 ERROR frappe New Exception collected with id: 2024-01-17 12:58:12.368432-127.0.0.1-074
+Site: mygym.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Gym Class Booking","name":"new-gym-class-booking-1","__islocal":1,"__unsaved":1,"owner":"Administrator","class_type":"Dance Fitness","member":"GM-Raj-Patel-00007","booking_date":"2024-01-11","attendance_status":"Present"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-17 13:04:04,787 ERROR frappe New Exception collected with id: 2024-01-17 13:04:04.736781-127.0.0.1-431
+Site: mygym.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Gym Class Booking","name":"new-gym-class-booking-1","__islocal":1,"__unsaved":1,"owner":"Administrator","class_type":"Dance Fitness","member":"GM-Raj-Patel-00007","booking_date":"2024-01-11","attendance_status":"Present"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-17 13:04:23,406 ERROR frappe New Exception collected with id: 2024-01-17 13:04:23.400683-127.0.0.1-d99
+Site: mygym.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Gym Class Booking","name":"new-gym-class-booking-1","__islocal":1,"__unsaved":1,"owner":"Administrator","class_type":"Dance Fitness","member":"GM-Raj-Patel-00005","booking_date":"2024-01-18","attendance_status":"Present"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-17 13:05:41,262 ERROR frappe New Exception collected with id: 2024-01-17 13:05:41.210818-127.0.0.1-c5b
+Site: mygym.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Gym Class Booking","name":"new-gym-class-booking-1","__islocal":1,"__unsaved":1,"owner":"Administrator","class_type":"Dance Fitness","member":"GM-Raj-Patel-00005","booking_date":"2024-01-18","attendance_status":"Present"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-17 13:12:32,477 ERROR frappe New Exception collected with id: 2024-01-17 13:12:32.428532-127.0.0.1-d20
+Site: mygym.com
+Form Dict: {'doc': '{"name":"Class-00028","owner":"Administrator","creation":"2024-01-17 13:10:27.394311","modified":"2024-01-17 13:12:17.181559","modified_by":"Administrator","idx":0,"docstatus":0,"member":"GM-Raj-Patel-00007","class_type":"Spinning or Indoor Cycling","attendance_status":"Present","doctype":"Gym Class Booking","booking_date":"2024-01-11","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-17 17:58:16,967 ERROR frappe New Exception collected with id: 2024-01-17 17:58:16.922858-127.0.0.1-7ce
+Site: mygym.com
+Form Dict: {'report_name': 'Fitness Journey', 'filters': '{}', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-01-17 18:05:23,079 ERROR frappe New Exception collected with id: 2024-01-17 18:05:22.933007-127.0.0.1-360
+Site: mygym.com
+Form Dict: {'report_name': 'Fitness Journey', 'filters': '{}', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-01-17 18:06:33,854 ERROR frappe New Exception collected with id: 2024-01-17 18:06:33.805622-127.0.0.1-5ae
+Site: mygym.com
+Form Dict: {'report_name': 'Fitness Journey', 'filters': '{}', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-01-17 18:07:24,498 ERROR frappe New Exception collected with id: 2024-01-17 18:07:24.444463-127.0.0.1-f99
+Site: mygym.com
+Form Dict: {'report_name': 'Fitness Journey', 'filters': '{}', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-01-17 18:08:01,528 ERROR frappe New Exception collected with id: 2024-01-17 18:08:01.482043-127.0.0.1-a7b
+Site: mygym.com
+Form Dict: {'report_name': 'Fitness Journey', 'filters': '{}', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-01-17 18:09:10,981 ERROR frappe New Exception collected with id: 2024-01-17 18:09:10.934953-127.0.0.1-448
+Site: mygym.com
+Form Dict: {'report_name': 'Fitness Journey', 'filters': '{}', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-01-17 18:21:42,391 ERROR frappe New Exception collected with id: 2024-01-17 18:21:42.345437-127.0.0.1-eeb
+Site: mygym.com
+Form Dict: {'report_name': 'gym revenue by month', 'filters': '{}', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-01-17 22:27:58,639 ERROR frappe New Exception collected with id: 2024-01-17 22:27:58.570687-127.0.0.1-253
+Site: mygym.com
+Form Dict: {'report_name': 'gym revenue by month', 'filters': '{}', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-01-17 22:28:39,613 ERROR frappe New Exception collected with id: 2024-01-17 22:28:39.552247-127.0.0.1-998
+Site: mygym.com
+Form Dict: {'report_name': 'gym revenue by month', 'filters': '{}', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-01-17 22:30:24,292 ERROR frappe New Exception collected with id: 2024-01-17 22:30:24.230180-127.0.0.1-fbb
+Site: mygym.com
+Form Dict: {'report_name': 'gym revenue by month', 'filters': '{}', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-01-17 22:32:17,659 ERROR frappe New Exception collected with id: 2024-01-17 22:32:17.595893-127.0.0.1-421
+Site: mygym.com
+Form Dict: {'report_name': 'gym revenue by month', 'filters': '{}', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-01-17 22:32:35,807 ERROR frappe New Exception collected with id: 2024-01-17 22:32:35.753902-127.0.0.1-7eb
+Site: mygym.com
+Form Dict: {'report_name': 'gym revenue by month', 'filters': '{}', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-01-17 22:32:52,695 ERROR frappe New Exception collected with id: 2024-01-17 22:32:52.606501-127.0.0.1-bc0
+Site: mygym.com
+Form Dict: {'report_name': 'gym revenue by month', 'filters': '{}', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-01-17 22:33:34,825 ERROR frappe New Exception collected with id: 2024-01-17 22:33:34.765529-127.0.0.1-76c
+Site: mygym.com
+Form Dict: {'report_name': 'gym revenue by month', 'filters': '{}', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2024-01-17 22:38:46,975 ERROR frappe New Exception collected with id: 2024-01-17 22:38:46.864315-127.0.0.1-6e0
+Site: mygym.com
+Form Dict: {'doc': '{"name":"Class-00031","owner":"Administrator","creation":"2024-01-17 13:18:34.458167","modified":"2024-01-17 13:18:34.458167","modified_by":"Administrator","idx":0,"docstatus":0,"member":"GM-Raj-Patel-00005","class_type":"Pilates","booking_date":"2024-01-11","attendance_status":"Present","doctype":"Gym Class Booking","__last_sync_on":"2024-01-17T17:07:59.723Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-17 23:01:45,492 ERROR frappe New Exception collected with id: 2024-01-17 23:01:45.431922-127.0.0.1-26d
+Site: mygym.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Gym Trainer","name":"new-gym-trainer-1","__islocal":1,"__unsaved":1,"owner":"Administrator","specialization":"Rehabilitation and Injury Prevention","first_name":"Abc","last_name":"def","contact_number":"7452142536","email":"asdassfff@sdf.asd","average_rating":null}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-18 10:40:10,348 ERROR frappe New Exception collected with id: 2024-01-18 10:40:10.294123-127.0.0.1-daa
+Site: mygym.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Gym Membership","name":"new-gym-membership-2","__islocal":1,"__unsaved":1,"owner":"Administrator","payment_status":"Complete","member":"GM-dsfsffsd-sdfdsf-00012","membership_type":"MT-Basic.00002","start_date":"2024-01-19","payment_date":"2024-01-19"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-18 10:51:45,712 ERROR frappe New Exception collected with id: 2024-01-18 10:51:45.657340-127.0.0.1-21f
+Site: mygym.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Gym Membership","name":"new-gym-membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","payment_status":"Complete","member":"GM-Raj-Patel-00005","membership_type":"MT-Basic.00002","start_date":"2024-01-19","payment_date":"2024-01-26"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-18 10:55:14,813 ERROR frappe New Exception collected with id: 2024-01-18 10:55:14.747387-127.0.0.1-906
+Site: mygym.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Gym Membership","name":"new-gym-membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","payment_status":"Complete","member":"GM-Raj-Patel-00005","membership_type":"MT-Basic.00002","start_date":"2024-01-19","payment_date":"2024-01-25"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-18 12:19:57,780 ERROR frappe New Exception collected with id: 2024-01-18 12:19:57.723788-127.0.0.1-fe2
+Site: mygym.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Fitness Record","name":"new-fitness-record-1","__islocal":1,"__unsaved":1,"owner":"Administrator","member":"GM-Raj-Patel-00007","date":"2024-01-19","weight_kg":50,"calories_burned":1,"exercise_type":"E1-00024","measurement_date":"2024-01-17"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-19 11:11:01,640 ERROR frappe New Exception collected with id: 2024-01-19 11:11:01.584279-127.0.0.1-d79
+Site: mygym.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Gym Member","name":"new-gym-member-1","__islocal":1,"__unsaved":1,"owner":"Administrator","gender":"Female","registration_date":"2024-01-19","first_name":"Pooja","last_name":"Popaat","date_of_birth":"1990-05-16","weight":85,"height":138,"contact_number":"7456584525","email":"pooja@gmail.com","address":"Ahmedabad","emergency_contact_details":"5564742520","joining_date":"2024-01-24"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-19 11:11:42,617 ERROR frappe New Exception collected with id: 2024-01-19 11:11:42.565649-127.0.0.1-268
+Site: mygym.com
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Gym Member","name":"new-gym-member-1","__islocal":1,"__unsaved":1,"owner":"Administrator","gender":"Female","registration_date":"2024-01-19","first_name":"Pooja","last_name":"Popaat","date_of_birth":"1990-05-16","weight":85,"height":138,"contact_number":"7456584525","email":"pooja@gmail.com","address":"Ahmedabad","emergency_contact_details":"5564742520","joining_date":"2024-01-24"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-01-19 12:15:13,957 ERROR frappe New Exception collected with id: 2024-01-19 12:15:13.856693-127.0.0.1-7a0
+Site: mygym.com
+Form Dict: {'doctype': 'Dashboard', 'fields': '["`tabDashboard`.`name`","`tabDashboard`.`owner`","`tabDashboard`.`creation`","`tabDashboard`.`modified`","`tabDashboard`.`modified_by`","`tabDashboard`.`_user_tags`","`tabDashboard`.`_comments`","`tabDashboard`.`_assign`","`tabDashboard`.`_liked_by`","`tabDashboard`.`docstatus`","`tabDashboard`.`parent`","`tabDashboard`.`parenttype`","`tabDashboard`.`parentfield`","`tabDashboard`.`idx`","`tabDashboard`.`dashboard_name`"]', 'filters': '[]', 'order_by': '`tabDashboard`.`modified` DESC', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '`tabDashboard`.`name`', 'with_comment_count': 'true', 'cmd': 'frappe.desk.reportview.get'}

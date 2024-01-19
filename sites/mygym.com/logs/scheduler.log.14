@@ -1,0 +1,16 @@
+2024-01-17 17:08:35,675 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mygym.com
+2024-01-17 17:08:35,782 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for mygym.com
+2024-01-17 17:08:35,839 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for mygym.com
+2024-01-17 17:08:36,180 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for mygym.com
+2024-01-17 17:08:36,239 INFO scheduler Scheduled Job Start: frappe.monitor.flush for mygym.com
+2024-01-17 17:08:36,370 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for mygym.com
+2024-01-17 17:08:36,546 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for mygym.com
+2024-01-17 17:08:36,661 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for mygym.com
+2024-01-17 17:08:36,720 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mygym.com
+2024-01-17 17:08:36,885 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for mygym.com
+2024-01-17 17:08:36,942 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for mygym.com
+2024-01-17 17:08:37,097 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for mygym.com
+2024-01-17 17:08:37,153 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for mygym.com
+2024-01-17 17:08:37,312 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for mygym.com
+2024-01-17 17:08:41,137 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for mygym.com
+2024-01-17 17:08:41,298 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for mygym.com

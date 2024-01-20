@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-13 19:46:36.818617",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "max_lockers",
+  "max_group_class_capacity",
+  "total_revenue"
+ ],
+ "fields": [
+  {
+   "fieldname": "max_lockers",
+   "fieldtype": "Int",
+   "label": "Max Lockers"
+  },
+  {
+   "fieldname": "max_group_class_capacity",
+   "fieldtype": "Int",
+   "label": "Max Group Class Capacity"
+  },
+  {
+   "fieldname": "total_revenue",
+   "fieldtype": "Currency",
+   "label": "Total Revenue"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-01-18 16:25:10.792498",
+ "modified_by": "Administrator",
+ "module": "Gym App",
+ "name": "Gym Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Gym Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

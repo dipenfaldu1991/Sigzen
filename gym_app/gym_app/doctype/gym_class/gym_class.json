@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{class_type}-{total_slots}",
+ "creation": "2024-01-17 13:03:42.891352",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "class_type",
+  "total_slots"
+ ],
+ "fields": [
+  {
+   "fieldname": "class_type",
+   "fieldtype": "Select",
+   "label": "Class Type",
+   "options": "Dance Fitness\nBoxing\nSpinning or Indoor Cycling\nYoga\nZumba\nPilates\nBarre\nCrossFit\nAerobics\nAquatic\nCycling and Strength Combo"
+  },
+  {
+   "fieldname": "total_slots",
+   "fieldtype": "Int",
+   "label": "Total Slots"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-18 16:25:40.050720",
+ "modified_by": "Administrator",
+ "module": "Gym App",
+ "name": "Gym Class",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

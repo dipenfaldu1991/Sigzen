@@ -1,0 +1,135 @@
+{% extends 'templates/mygym_base.html' %}
+{% block content %}
+
+	<!-- Hamburger -->
+	
+	<div class="hamburger_bar trans_400 d-flex flex-row align-items-center justify-content-start">
+		<div class="hamburger">
+			<div class="menu_toggle d-flex flex-row align-items-center justify-content-start">
+				<span>menu</span>
+				<div class="hamburger_container">
+					<div class="menu_hamburger">
+						<div class="line_1 hamburger_lines" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+						<div class="line_2 hamburger_lines" style="visibility: inherit; opacity: 1;"></div>
+						<div class="line_3 hamburger_lines" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Menu -->
+
+	<div class="menu trans_800">
+		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/about">About us</a></li>
+				<li><a href="services.html">Classes & Services</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</div>
+		<div class="menu_phone d-flex flex-row align-items-center justify-content-start">
+			<i class="fa fa-phone" aria-hidden="true"></i>
+				<span>652-345 3222 11</span>
+		</div>
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="background_image" style="background-image:url(/assets/gym_app/my_gym/images/contact.jpg)"></div>
+		<div class="overlay"></div>
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title">Contact</div>
+							<div class="home_subtitle">Pilates, Yoga, Fitness, Spinning & many more</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact -->
+
+	<div class="contact">
+		<div class="container">
+			<div class="row">
+
+				<!-- Contact Content -->
+				<div class="col-lg-4">
+					<div class="contact_content">
+						<div class="contact_logo">
+							<div class="logo d-flex flex-row align-items-center justify-content-start"><img src="/assets/gym_app/my_gym/images/dot.png" alt=""><div>Sport<span>fit</span></div></div>
+						</div>
+						<div class="contact_text">
+							<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Odio vestibulum est mattis effic iturut.</p>
+						</div>
+						<div class="contact_list">
+							<ul>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div><div>A:</div></div>
+									<div>1481 Creekside Lane Avila Beach, CA 931</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div><div>P:</div></div>
+									<div>+53 345 7953 32453</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div><div>M:</div></div>
+									<div>yourmail@gmail.com</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!-- Contact Form -->
+				<div class="col-lg-8 contact_col">
+					<div class="contact_title">Get in touch</div>
+					<div class="contact_form_container">
+						<form action="#" id="contact_form" class="contact_form">
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="input_item"><input type="text" class="contact_input trans_200" placeholder="Name" required="required"></div>
+								</div>
+								<div class="col-lg-6">
+									<div class="input_item"><input type="email" class="contact_input trans_200" placeholder="E-mail" required="required"></div>
+								</div>
+							</div>
+							<div class="input_item"><textarea class="contact_input contact_textarea trans_200" placeholder="Message" required="required"></textarea></div>
+							<button class="contact_button button">Send<span></span></button>
+						</form>
+					</div>
+				</div>
+
+			</div>
+			<div class="row google_map_row">
+				<div class="col">
+					
+					<!-- Contact Map -->
+
+					<div class="contact_map">
+
+						<!-- Google Map -->
+						
+						<div class="map">
+							<div id="google_map" class="google_map">
+								<div class="map_container">
+									<div id="map"></div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}

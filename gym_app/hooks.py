@@ -188,3 +188,22 @@ user_data_fields = [
 #	"gym_app.auth.validate"
 # ]
 
+def get_jobs():
+    return [
+        {
+            "scheduler_events": {
+                "cron": {
+                    "day_of_week": "1",  # Monday
+                    "hour": "0",
+                    "minute": "0"
+                }
+            },
+            "method": "gym_app.gym_app.doctype.gym_class_booking.gym_class_booking.send_weekly_summary"
+        }
+    ]
+	
+def get_context(context):
+    context.update({
+        "title": _("Custom 404 - Page Not Found"),
+        "no_cache": 1
+    })

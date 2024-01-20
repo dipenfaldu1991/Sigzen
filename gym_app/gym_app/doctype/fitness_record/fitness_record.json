@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:FR-{measurement_date}-{#####}",
+ "creation": "2024-01-17 17:51:25.838434",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "member",
+  "date",
+  "weight_kg",
+  "calories_burned",
+  "exercise_type",
+  "measurement_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Member",
+   "options": "Gym Member"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "weight_kg",
+   "fieldtype": "Float",
+   "label": "Weight (kg)"
+  },
+  {
+   "fieldname": "calories_burned",
+   "fieldtype": "Int",
+   "label": "Calories Burned"
+  },
+  {
+   "fieldname": "exercise_type",
+   "fieldtype": "Link",
+   "label": "Exercise Type",
+   "options": "Gym Workout Plan Exercise"
+  },
+  {
+   "fieldname": "measurement_date",
+   "fieldtype": "Date",
+   "label": "Measurement Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-18 16:36:54.423537",
+ "modified_by": "Administrator",
+ "module": "Gym App",
+ "name": "Fitness Record",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
